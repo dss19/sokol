@@ -84,16 +84,12 @@ body {
 
 }
 
-.offerlocation {
+.offer {
     font-size: 36px;
 }
 
-.offerfeature {
-    font-size: 24px;
-    margin-bottom: 50px;
-}
-
 .button {
+    margin-top: 70px;
     background: #50a9da url(img/icons/button-bg.png) no-repeat center;
     padding: 7px;
     font-size: 20px;
