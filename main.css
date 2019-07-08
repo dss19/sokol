@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Cuprum', sans-serif;
     color: white;
     font-size: 16px;
 
@@ -57,3 +57,55 @@ body {
     margin-right: 0px;
 }
 
+/* main Offer */
+
+.main-offer {
+    background: #cfd1e4 url(img/bg-main.jpg);
+    color: black;
+    height: 820px;
+}
+.container__inner {
+    display: flex;
+    justify-content: space-between;     
+}
+
+.main-offer-text {
+    margin-top: 100px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.offertext {
+    font-size: 48px;
+
+}
+
+.offerlocation {
+    font-size: 36px;
+}
+
+.offerfeature {
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.button {
+    background: #50a9da url(img/icons/button-bg.png) no-repeat center;
+    padding: 7px;
+    font-size: 20px;
+    border: 1px #50a9da solid;
+    border-radius: 15px;
+    opacity: 0.8;
+
+}
+
+.button:hover {
+    border: 1px #50a9da solid;
+    transition: 0.3s;
+    opacity: 1;
+
+}
