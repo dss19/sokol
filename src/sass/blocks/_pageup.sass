@@ -1,0 +1,29 @@
+.pageup
+  display: inline-block
+  position: fixed
+  right: 15px
+  bottom: 15px
+  background-color: #f5cf37
+  border: none
+  border-radius: 5px
+  padding: 0px 7px
+  transition: background-color 0.3s
+  visibility: hidden
+  z-index: 10
+  outline: 0
+  cursor: pointer  
+  &:active
+    background-color: darken(#28A4D7, 10%)
+  &_show
+    visibility: visible
+@media (max-width: 768px)
+  .pageup
+    max-width: 35px
+    right: 10px
+    bottom: 10px 
+
+
+
+
+
+  

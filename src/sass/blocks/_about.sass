@@ -1,0 +1,85 @@
+.about
+  background: url(../img/bg2.jpg) 
+  padding-bottom: 80px
+  &-title
+    padding: 100px 0px 80px
+    text-align: right
+  &-items
+    display: flex
+    justify-content: space-between
+  &-block 
+    flex-basis: 23%
+    height: 320px
+    display: flex
+    flex-direction: column
+    align-items: center
+    text-align: center
+    background: rgba(152, 246, 246, 0.3)
+    border: 1px solid #68cef8
+    border-radius: 10px
+    color: #ffffff
+    text-transform: uppercase
+    &__img
+      margin: 20px 0px
+    &__title      
+      font-size: 20px
+      border-bottom: 2px solid #f5cf37
+      border-top: 2px solid #f5cf37
+      margin-bottom: 30px
+    &__text
+      line-height: 1.4
+    &__tel
+      margin-top: 15px
+      text-decoration: none
+      color: #f5cf37
+      font-size: 22px
+      font-weight: 700
+  &-button
+    text-align: center
+    margin-top: 80px
+@media (max-width: 992px)
+  .about
+    padding-bottom: 50px
+    &-title
+      padding: 50px 0 50px
+      text-align: center
+    &-items
+      flex-wrap: wrap
+    &-block 
+      flex-basis: 48%
+      margin-bottom: 30px
+    &-button
+      margin-top: 10px
+@media (max-width: 567px) and (min-width: 320px)
+  .about
+    &-items
+      flex-direction: column
+      align-items: center
+    &-block
+      max-width: 300px
+      width: 100%
+      padding: 10px 0
+      & img
+        width: 40px
+        margin: 0 0 15px 
+      &__title
+        margin-bottom: 15px
+        font-size: 18px
+      &__tel
+        margin-top: 10px    
+    &-title      
+      font-size: 22px   
+
+      
+      
+
+
+
+
+
+
+
+
+
+    
+
